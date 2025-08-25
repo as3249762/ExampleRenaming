@@ -1,0 +1,22 @@
+site_name: Some Site
+strict: true
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.blocks.caption
+
+# make the validation stricter so that broken links don't make it into prod
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+theme:
+  name: material
+  features:
+    - content.tooltips
+    - navigation.indexes # sets the index.md file of any folder to be displayed when you click on the folder itself
+    - content.code.copy # adds a copy button to code blocks

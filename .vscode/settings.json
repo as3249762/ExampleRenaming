@@ -1,0 +1,41 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off" // markdown files should be formatted to be 80 line across anyway. Setting this to "off" allows markdown tables to be displayed in a more easy to understsand way in the editor
+  },
+  "cSpell.autoFormatConfigFile": true,
+  "cSpell.ignoreRegExpList": [
+    "--8<--.*", // whole lines that contain snippets
+    "\\s+\\S+(\\.com|\\.world|\\.exe)", // emails and website URLs
+    "\\`.*\\`", // code blocks
+    "\\`\\`\\`.*[\\s\\S]*?\\`\\`\\`", // multi line code blocks with 3 dashes
+    "\\`\\`\\`\\`.*[\\s\\S]*?\\`\\`\\`\\`" // multi line code blocks with 4 dashes
+  ],
+  "cSpell.language": "en-GB",
+  "cSpell.words": [
+    "authorisation",
+    "Baillie",
+    "deserialising",
+    "Entra",
+    "Gifford",
+    "IBOR",
+    "idempotency",
+    "organisation",
+    "Pluralsight",
+    "recognised",
+    "recognises",
+    "Shouldly",
+    "Spacelift"
+  ],
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "markdown.updateLinksOnFileMove.enableForDirectories": true,
+  "markdown.editor.updateLinksOnPaste.enabled": true,
+  "markdown.validate.duplicateLinkDefinitions.enabled": "error",
+  "markdown.validate.enabled": true,
+  "markdown.validate.fileLinks.enabled": "error",
+  "markdown.validate.fileLinks.markdownFragmentLinks": "error",
+  "markdown.validate.fragmentLinks.enabled": "error",
+  "markdown.validate.referenceLinks.enabled": "error",
+  "prettier.resolveGlobalModules": false
+}

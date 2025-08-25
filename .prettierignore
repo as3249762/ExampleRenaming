@@ -1,0 +1,24 @@
+# This should typically just be a copy of the gitignore file
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Optional npm cache directory
+.npm
+
+# VS Code settings
+.vscode/
